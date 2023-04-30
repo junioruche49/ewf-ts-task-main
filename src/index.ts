@@ -1,6 +1,6 @@
 import { Genre, Movie } from "./index.types"
 import * as moviesList from "./db.json";
-
+//Time complexity O(n2)
 export const getFilteredMovies = ({ genres }: { genres: Genre[] }): Movie[] => {
   const movies:  Movie[] = sortAccordingToGenres()
   const filterMovies: Movie[] = []
