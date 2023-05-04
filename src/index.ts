@@ -74,5 +74,3 @@ function sortAccordingToGenres():Movie[]{
   return movies
 }
 
-const genres: Genre[] = ['Crime', 'Drama', 'Music']
-console.log(genreList({genres}))
